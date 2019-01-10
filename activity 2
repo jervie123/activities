@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JERVZZZZ</title>
+</head>
+<body>
+<center>
+<label>Enter Amount:)</label>
+<input type="text" id="value1" name="">
+<input type="button" value="OK" onclick="Modulo()">
+<h3 id="result"></h3>
+</center>
+<script type="text/javascript">
+function Modulo()
+{
+var x = document.getElementById("value1").value;
+var sample;
+if (x % 100 == 0)
+{
+document.getElementById("result").innerHTML = "AMOUNT IS ACCEPTED";	
+}
+else
+{
+document.getElementById("result").innerHTML = "AMOUNT IS NOT ACCEPTED";
+} 
+}
+</script>
+</body>
+</html>
